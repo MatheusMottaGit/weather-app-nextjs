@@ -1,4 +1,3 @@
-import { WeatherProvider } from '@/contexts/WeatherContext'
 import './globals.css'
 import { Lato } from 'next/font/google'
 
@@ -18,9 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lato.variable} font-lato bg-violet bg-main`}>
         <main className='h-screen w-screen flex items-center justify-center'>
-          <WeatherProvider>
-            {children}
-          </WeatherProvider>
+          {children}
         </main>
       </body>
     </html>
