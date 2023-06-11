@@ -1,11 +1,6 @@
 import React, { useContext } from 'react'
 
-import axios from 'axios'
-
 import { MapPin } from 'lucide-react'
-// import { Location } from '@/types/types'
-
-const apiKey = process.env.NEXT_PUBLIC_API_KEY
 
 const Location = async () => {
 
