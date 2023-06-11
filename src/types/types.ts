@@ -5,15 +5,9 @@ export interface Children {
 }
 
 export interface WeatherContext {
-  coords: {
-    longitude: number | null
-    latitude: number
-  }
+  
 }
 
 export interface Location {
-  name: string
-  sys: {
-    country: string
-  }
+  
 }
